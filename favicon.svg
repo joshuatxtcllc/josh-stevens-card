@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#14120f"/>
+  <g transform="translate(4 16) scale(0.27)">
+    <g fill="#070605" transform="translate(2.4 3.2)">
+      <path d="M2 4H78V84L16 84 2 68H58V24H2Z"/>
+      <path d="M192 4H98V50H174V68H118V56H98V84H192V34H118V20H174V30H192Z"/>
+    </g>
+    <g fill="#3A2C1C" transform="translate(1.4 1.8)">
+      <path d="M2 4H78V84L16 84 2 68H58V24H2Z"/>
+      <path d="M192 4H98V50H174V68H118V56H98V84H192V34H118V20H174V30H192Z"/>
+    </g>
+    <g fill="#E8D6AC" transform="translate(-1.1 -1.4)">
+      <path d="M2 4H78V84L16 84 2 68H58V24H2Z"/>
+      <path d="M192 4H98V50H174V68H118V56H98V84H192V34H118V20H174V30H192Z"/>
+    </g>
+    <g fill="#C6A36A">
+      <path d="M2 4H78V84L16 84 2 68H58V24H2Z"/>
+      <path d="M192 4H98V50H174V68H118V56H98V84H192V34H118V20H174V30H192Z"/>
+    </g>
+  </g>
+</svg>

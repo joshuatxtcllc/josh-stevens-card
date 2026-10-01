@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Josh “Jay” Stevens</title>
+    <meta
+      name="description"
+      content="Josh “Jay” Stevens in Houston. Custom framing, websites and apps, business systems, automations, and urgent permits."
+    />
+    <meta property="og:title" content="Josh “Jay” Stevens" />
+    <meta
+      property="og:description"
+      content="Framing, websites, systems, automations, and urgent permits. Tap a service."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cdn.jsdelivr.net/gh/joshuatxtcllc/josh-stevens-card@main/index.html" />
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/joshuatxtcllc/josh-stevens-card@main/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Josh “Jay” Stevens" />
+    <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/joshuatxtcllc/josh-stevens-card@main/og.jpg" />
+    <meta name="theme-color" content="#14120f" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Fraunces:opsz,wght@9..144,560&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --canvas: #14120f;
+        --surface: #1e1b16;
+        --raised: #28241d;
+        --line: #3a342b;
+        --cream: #f3eee6;
+        --muted: #b6ab9e;
+        --brass: #c6a36a;
+        --ink: #14120f;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; background: var(--canvas); color: var(--cream); }
+      body {
+        font-family: Outfit, ui-sans-serif, system-ui, sans-serif;
+        line-height: 1.5;
+        min-height: 100dvh;
+      }
+      a { color: inherit; text-decoration: none; }
+      button { font: inherit; color: inherit; background: none; border: 0; }
+      .app { max-width: 28rem; margin: 0 auto; min-height: 100dvh; display: flex; flex-direction: column; }
+      .scroll { flex: 1; }
+      .pad { padding: calc(env(safe-area-inset-top) + 1.25rem) 1.25rem 0.5rem; }
+      .eyebrow { font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 500; }
+      .brass { color: var(--brass); }
+      .muted { color: var(--muted); }
+      .name {
+        margin: 0.75rem 0 0;
+        font-family: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+        font-weight: 900;
+        font-size: 5rem;
+        line-height: 0.76;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+      }
+      .mark { width: 100%; height: auto; margin-top: 1.25rem; display: block; }
+      .reach {
+        display: flex; min-height: 3rem; align-items: center; justify-content: center; gap: 0.4rem;
+        border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); font-weight: 500;
+      }
+      .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-top: 1.25rem; }
+      .list { display: flex; flex-direction: column; gap: 0.5rem; margin: 0.5rem 0.75rem 1.5rem; padding: 0; list-style: none; }
+      .row {
+        display: flex; min-height: 4rem; align-items: center; gap: 0.75rem;
+        padding: 0.5rem 0.75rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--surface);
+      }
+      .glyph {
+        width: 2.75rem; height: 2.75rem; display: grid; place-items: center; flex: none;
+        border-radius: 0.75rem; background: var(--raised); color: var(--brass);
+      }
+      .grow { min-width: 0; flex: 1; }
+      .grow b, .grow span { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      .grow span { color: var(--muted); font-size: 0.875rem; font-weight: 400; }
+      h1.service {
+        margin: 0.25rem 0 0; font-family: Fraunces, Georgia, serif; font-weight: 560;
+        font-size: 2.25rem; line-height: 1; letter-spacing: -0.02em;
+      }
+      .back { display: inline-flex; min-height: 2.75rem; align-items: center; color: var(--muted); }
+      .covers { list-style: none; margin: 0.75rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.75rem; }
+      .covers li { display: flex; gap: 0.75rem; }
+      .num { width: 1.5rem; flex: none; color: var(--brass); font-family: Fraunces, Georgia, serif; }
+      .fit { margin: 0.5rem 0 0; padding: 0.75rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); font-size: 0.875rem; }
+      .facts { margin-top: 1.5rem; padding: 1rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); }
+      .copybox {
+        margin-top: 1.5rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); overflow: hidden;
+      }
+      .copybox button { width: 100%; min-height: 3rem; text-align: left; padding: 0 1rem; font-weight: 500; }
+      .copybox pre { margin: 0; padding: 0 1rem 1rem; white-space: pre-wrap; font: inherit; font-size: 0.875rem; }
+      .foot {
+        position: sticky; bottom: 0; padding: 0.75rem 1rem calc(env(safe-area-inset-bottom) + 0.75rem);
+        border-top: 1px solid var(--line); background: var(--canvas);
+      }
+      .btn {
+        display: flex; width: 100%; min-height: 3rem; align-items: center; justify-content: center;
+        border-radius: 1rem; font-weight: 600;
+      }
+      .primary { background: var(--brass); color: var(--ink); }
+      .quiet { margin-top: 0.5rem; border: 1px solid var(--line); background: var(--surface); }
+      .note { margin: 0.5rem 0 0; text-align: center; color: var(--muted); font-size: 0.75rem; }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="scroll" id="view"></div>
+      <footer class="foot">
+        <a class="btn primary" id="text" href="#">Text this page</a>
+        <button class="btn quiet" id="copy" type="button">Copy the link</button>
+        <p class="note" id="note">This is the card. Call, email, or copy anything on it.</p>
+      </footer>
+    </div>
+    <script>
+      const PHONE = "+18328933794";
+      const PHONE_DISPLAY = "(832) 893-3794";
+      const EMAIL = "frames@jaysframes.com";
+      const PAGE = "https://cdn.jsdelivr.net/gh/joshuatxtcllc/josh-stevens-card@main/index.html";
+      const MARK = `<svg class="mark" viewBox="-8 -6 212 102" aria-hidden="true"><g fill="#070605" transform="translate(2.4 3.2)"><path d="M2 4H78V84L16 84 2 68H58V24H2Z"/><path d="M192 4H98V50H174V68H118V56H98V84H192V34H118V20H174V30H192Z"/></g><g fill="#3A2C1C" transform="translate(1.4 1.8)"><path d="M2 4H78V84L16 84 2 68H58V24H2Z"/><path d="M192 4H98V50H174V68H118V56H98V84H192V34H118V20H174V30H192Z"/></g><g fill="#E8D6AC" transform="translate(-1.1 -1.4)"><path d="M2 4H78V84L16 84 2 68H58V24H2Z"/><path d="M192 4H98V50H174V68H118V56H98V84H192V34H118V20H174V30H192Z"/></g><g fill="#C6A36A"><path d="M2 4H78V84L16 84 2 68H58V24H2Z"/><path d="M192 4H98V50H174V68H118V56H98V84H192V34H118V20H174V30H192Z"/></g></svg>`;
+
+      const services = [
+        {
+          id: "frames",
+          brand: "Jay's Frames",
+          practice: "Framing & preservation",
+          sentence: "Custom art framing and preservation from the shop in Houston Heights. Built to look right and hold up.",
+          covers: ["Paintings, prints, and photographs with archival mats and UV glass", "Shadow boxes for jerseys, medals, memorabilia, and objects", "Gallery walls: layout, spacing, and the hanging itself", "Printing, plus rush when the materials are in the shop", "Preservation and restoration on pieces worth keeping"],
+          fits: ["A piece that should be protected, not just bordered", "A jersey, medal, or object that needs depth and a real seal", "A wall that should look composed, then actually get installed"],
+          facts: [["Shop", "218 W 27th St, Houston Heights"], ["Hours", "Mon-Fri 10-6, Sat 11-5"], ["Open since", "In the Heights since 2011"]],
+          links: [["Website", "https://jaysframes.com"], ["Instagram", "https://instagram.com/jaysframes"], ["Directions", "https://maps.apple.com/?q=Jay%27s%20Frames&address=218%20W%2027th%20St,Houston,TX,77008"]],
+        },
+        {
+          id: "medius",
+          brand: "AI Medius",
+          practice: "Websites & apps",
+          sentence: "Websites and apps designed and built so a business can explain them in one sitting and still use them next year.",
+          covers: ["Sites that say what you do and make it easy to call", "Web apps a team will actually open on a workday", "Mobile-ready, fast, and built so they can be maintained", "From a single sharp page to a product you can ship"],
+          fits: ["A shop or studio that needs a real presence, not a template with the logo swapped", "A spreadsheet-and-group-text workflow that should be one tool", "An idea that needs a first version people can touch"],
+          facts: [["Based", "Houston"]],
+          links: [],
+        },
+        {
+          id: "permits",
+          brand: "Urgent Permits",
+          practice: "Permit expediting",
+          sentence: "When a job is sitting on a permit, I work the package, the corrections, and the follow-up so it moves.",
+          covers: ["Urgent filings that cannot wait on a quiet inbox", "Packages cleaned up after a kickback", "Follow-up so a submittal does not go silent", "A plain status you can act on"],
+          fits: ["A start date that is already on the calendar", "A comment letter that needs a clean resubmittal", "An owner who wants the status in English, not a portal"],
+          facts: [["Based", "Houston"]],
+          links: [],
+        },
+        {
+          id: "systems",
+          brand: "Systems Architect",
+          practice: "Business operating systems",
+          sentence: "How the work actually moves: intake, production, handoffs, training, and a clear view of what is late.",
+          covers: ["The path from the counter, or the inbox, to done", "Screens and standards a new hire can be trained on", "Status in one place instead of five threads", "Numbers that show a bottleneck before a customer does"],
+          fits: ["Orders that disappear between the front and the bench", "A growing crew still running on memory", "Tools you already pay for that do not match the work"],
+          facts: [["Based", "Houston"], ["From", "Built out of a working shop, not a slide"]],
+          links: [],
+        },
+        {
+          id: "automations",
+          brand: "Automations",
+          practice: "AI assistants & workflows",
+          sentence: "Assistants and automations that take the repeat work: answers, intake, and the update you type all day.",
+          covers: ["An assistant that knows your services, hours, and how to book", "Intake that captures the job when you are on the floor", "Follow-ups drafted and waiting, not sent on their own", "Connections between the tools you already use"],
+          fits: ["The same status text, ten times a day", "After-hours questions that should become a job, not a voicemail", "A front door that should answer before you can"],
+          facts: [["Based", "Houston"]],
+          links: [],
+        },
+      ];
+
+      const pageUrl = (id) => (id ? `${PAGE}?s=${id}` : PAGE);
+      const smsBody = (service) => {
+        const url = pageUrl(service && service.id);
+        const lines = service
+          ? [`Josh “Jay” Stevens, ${service.brand}`, url, "", service.sentence, PHONE_DISPLAY, EMAIL]
+          : ["Josh “Jay” Stevens", url, "", "Framing, websites, systems, automations, and urgent permits. Tap the card.", PHONE_DISPLAY, EMAIL];
+        return lines.join("\n");
+      };
+      const current = () => {
+        const q = new URLSearchParams(location.search).get("s");
+        return services.find((s) => s.id === q) || null;
+      };
+
+      function home() {
+        const rows = services
+          .map(
+            (s) => `<li><a class="row" href="?s=${s.id}"><span class="glyph" aria-hidden="true"></span><span class="grow"><b>${s.brand}</b><span>${s.practice}</span></span></a></li>`,
+          )
+          .join("");
+        return `<header class="pad"><p class="eyebrow brass">Houston Heights</p>${MARK}<h1 class="name">Josh<span class="brass" style="display:block">“Jay”</span>Stevens</h1><p class="muted" style="max-width:18rem">Framing, websites, systems, automations, and urgent permits. Tap one.</p><div class="grid3"><a class="reach" href="tel:${PHONE}">Call</a><a class="reach" href="mailto:${EMAIL}">Email</a><a class="reach" href="https://maps.apple.com/?q=Jay%27s%20Frames&address=218%20W%2027th%20St,Houston,TX,77008">Shop</a></div></header><main><h2 class="eyebrow muted" style="padding:1.25rem 1.25rem 0">Services</h2><ul class="list">${rows}</ul></main>`;
+      }
+
+      function detail(s) {
+        const covers = s.covers.map((item, i) => `<li><span class="num">0${i + 1}</span><span>${item}</span></li>`).join("");
+        const fits = s.fits.map((item) => `<p class="fit">${item}</p>`).join("");
+        const facts = s.facts.map(([k, v]) => `<div style="margin-top:.75rem"><div class="eyebrow muted">${k}</div><div>${v}</div></div>`).join("");
+        const links = s.links.map(([label, href]) => `<a class="reach" href="${href}">${label}</a>`).join("");
+        const blurb = smsBody(s);
+        return `<header class="pad"><a class="back" href="${PAGE}">All services</a><p class="eyebrow brass" style="margin-top:.75rem">${s.practice}</p><h1 class="service">${s.brand}</h1><p>${s.sentence}</p></header><main style="padding:1rem 1.25rem 2rem"><h2 class="eyebrow muted">In the work</h2><ul class="covers">${covers}</ul><h2 class="eyebrow muted" style="margin-top:1.5rem">A fit when</h2>${fits}<div class="facts">${facts}</div><div class="grid3" style="margin-top:1rem"><a class="reach" href="tel:${PHONE}">Call</a><a class="reach" href="mailto:${EMAIL}?subject=${encodeURIComponent(s.brand)}">Email</a>${links}</div><div class="copybox"><button type="button" id="show">Copy the writeup</button><pre id="blurb" hidden>${blurb.replaceAll("<", "<")}</pre></div></main>`;
+      }
+
+      function render() {
+        const service = current();
+        document.getElementById("view").innerHTML = service ? detail(service) : home();
+        document.title = service ? `${service.brand} · Josh “Jay” Stevens` : "Josh “Jay” Stevens";
+        const url = pageUrl(service && service.id);
+        document.getElementById("text").href = `sms:?&body=${encodeURIComponent(smsBody(service))}`;
+        document.getElementById("text").textContent = service ? "Text this page" : "Text the card";
+        const copy = document.getElementById("copy");
+        copy.onclick = async () => {
+          try {
+            await navigator.clipboard.writeText(url);
+            document.getElementById("note").textContent = "Link copied.";
+          } catch {
+            document.getElementById("note").textContent = url;
+          }
+        };
+        const show = document.getElementById("show");
+        if (show) {
+          show.onclick = async () => {
+            const pre = document.getElementById("blurb");
+            pre.hidden = false;
+            try {
+              await navigator.clipboard.writeText(smsBody(service));
+              show.textContent = "Copied";
+            } catch {
+              show.textContent = "The writeup";
+            }
+          };
+        }
+      }
+
+      render();
+      window.addEventListener("popstate", render);
+    </script>
+  </body>
+</html>
